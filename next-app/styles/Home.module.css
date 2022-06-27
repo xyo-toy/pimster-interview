@@ -1,0 +1,83 @@
+.modal {
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  opacity: 1;
+}
+
+.modal_content {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: rgb(38, 24, 24);
+  padding: 1rem 1.5rem;
+  width: 24rem;
+  border-radius: 0.5rem;
+}
+
+.mission_img {
+  width: inherit;
+  height: inherit;
+}
+
+.card_img {
+  height: 200px;
+  width: 250px;
+}
+
+.card_info {
+  justify-content: space-between;
+  display: flex;
+}
+
+.card_rocket {
+  display: inline;
+}
+
+.card_date {
+  display: inline;
+}
+
+.card_title {
+  text-align: center;
+}
+
+.grid {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  max-width: 100%;
+  background-color: antiquewhite;
+}
+
+.card {
+  margin: 1rem;
+  padding: 1.5rem;
+  overflow: hidden;
+  text-align: left;
+  background-color: #fafafa;
+  text-decoration: none;
+  border-radius: 10px;
+  max-width: 300px;
+  max-height: 400px;
+}
+
+.card:hover,
+.card:focus,
+.card:active {
+  color: #0070f3;
+  border-color: #0070f3;
+}
+
+.mission_img {
+  max-width: 100%;
+}
+
+.container {
+  padding: 0 2rem;
+}
